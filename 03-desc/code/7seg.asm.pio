@@ -1,0 +1,9 @@
+.program hello
+
+
+
+loop:
+    pull
+    mov pins ~osr
+;after last instruction state machine will
+;jump back to first instruction automagically
