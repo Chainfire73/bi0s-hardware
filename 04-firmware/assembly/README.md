@@ -1,7 +1,7 @@
 # Compiling
 ```
-git clone --depth=1 this repo
-cd here
+git clone --depth=1 https://github.com/Chainfire73/bi0s-hardware.git
+cd bi0s-hardware/04-firmware/assembly/
 make       #compile all
 make add   #compile just one
 ```
@@ -59,7 +59,7 @@ todo
 ## Registers
    [64-bit](https://stackoverflow.com/questions/20637569/assembly-registers-in-64-bit-architecture)
 ## Linux syscalls
-	[syscall-table](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
+   [syscall-table](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md)
 
 ### Writing a Function
 A program uses a region of memory called the stack to support function calls. As the name
