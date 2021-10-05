@@ -48,7 +48,7 @@ lea eax, [eax + 0x4]    ; Compute address of value
 ;NOTE: it doesn't have to be a valid address. lea is often used as a "trick" to do certain computations.
 ```
 - **lea** is  the only instruction that performs memory addressing calculations
-  but doesn't actually address memory
+  but doesn't actually access memory
 - Advantages of **lea** over **add**:
    1. The ability to perform addition with either two or three operands.
    2. The ability to store the result in any register; not just one of the source operands.
