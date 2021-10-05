@@ -1,0 +1,4 @@
+04-firmware/assembly/*.o
+04-firmware/assembly/01-add
+04-firmware/assembly/02-prime
+04-firmware/assembly/03-fibo
